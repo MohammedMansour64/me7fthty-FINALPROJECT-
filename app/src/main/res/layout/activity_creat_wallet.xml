@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_wallet">
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="204dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="424dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@drawable/cloud3" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="411dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="612dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bottom_bar" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="414dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="572dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@drawable/bottom_bar" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="332dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="العودة"
+        android:textColor="#99CEF9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+        app:layout_constraintStart_toStartOf="@+id/imageView25" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="484dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="أنشئ محفظة جديدة:"
+        android:textColor="#707070"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="244dp"
+        android:layout_marginBottom="408dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="أسم المحفظة:"
+        android:textColor="#707070"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginBottom="348dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="اضف قسم:"
+        android:textColor="#707070"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="308dp"
+        android:layout_marginBottom="288dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="القسم1: "
+        android:textColor="#707070"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="308dp"
+        android:layout_marginBottom="240dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="القسم2: "
+        android:textColor="#707070"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="308dp"
+        android:layout_marginBottom="192dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="القسم3: "
+        android:textColor="#707070"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="239dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="404dp"
+        android:background="@drawable/edittext_walletcreate"
+
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="184dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="276dp"
+        android:background="@drawable/edittext_section_name"
+
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="184dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/edittext_section_name"
+
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="184dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/edittext_section_name"
+
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="111dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/edittext_walletcreate"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:paddingRight="5dp"
+        android:paddingBottom="13dp"
+        android:text="أنشئ"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="111dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/edittext_walletcreate"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:paddingRight="5dp"
+        android:paddingBottom="13dp"
+        android:text="صفحة المحافظ"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

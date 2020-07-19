@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".More_Details">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="411dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="612dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bottom_bar" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="العودة"
+        android:textColor="#99CEF9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+        app:layout_constraintEnd_toStartOf="@+id/imageView26" />
+
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/minus" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="476dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="بيانات أضافية:"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="150dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="132dp"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:text="اضف بيانات:"
+        android:textSize="27.5sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="260dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="212dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@drawable/clooud" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="414dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="572dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        app:srcCompat="@drawable/bottom_bar" />
+
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:text=" @2020 shalia Company®"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="114dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="324dp"
+        android:background="@drawable/data_name"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:hint="اسم البيان"
+        android:inputType="textPersonName"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="114dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="256dp"
+        android:background="@drawable/data_name"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:hint="اسم البيان"
+        android:inputType="textPersonName"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="114dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/data_name"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:hint="اسم البيان"
+        android:inputType="textPersonName"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="181dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="330dp"
+        android:background="@drawable/data_value"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="181dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="258dp"
+        android:background="@drawable/data_value"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="181dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/data_value"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex_2"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

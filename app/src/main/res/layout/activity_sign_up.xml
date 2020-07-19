@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".sign_up">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="96dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="235dp"
+        app:srcCompat="@drawable/cloud1" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="96dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="125dp"
+        app:srcCompat="@drawable/cloud2" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="96dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="345dp"
+        app:srcCompat="@drawable/cloud2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="538dp"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:text="أنشئ حسابك!"
+        android:textColor="#DFC93C"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="492dp"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:text="أنشئ حسابك ليتم حفظ محفظاتك في حسابك"
+        android:textColor="#707070"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="613dp"
+        app:srcCompat="@drawable/back" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="375dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:inputType="textPersonName"
+        android:paddingLeft="60dp"
+        android:paddingRight="15dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="265dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:inputType="textPersonName"
+        android:paddingLeft="60dp"
+        android:paddingRight="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="351dp"
+        android:layout_marginBottom="393dp"
+        app:srcCompat="@drawable/name" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="351dp"
+        android:layout_marginBottom="282dp"
+        app:srcCompat="@drawable/mail" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="152dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:inputType="textPassword"
+        android:paddingLeft="60dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="355dp"
+        android:layout_marginBottom="169dp"
+        app:srcCompat="@drawable/password" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="437dp"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:text="أسم المستخدم"
+        android:textColor="#9099CEF9"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="324dp"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:text="الأيميل"
+        android:textColor="#9099CEF9"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="212dp"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:text="كلمة المرور"
+        android:textColor="#9099CEF9"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="99dp"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:text="لديك حساب بالفعل؟"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_marginEnd="-71dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toStartOf="@+id/textView14"
+        android:background="#4FA8FF" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="98dp"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:linksClickable="true"
+        android:text="سجل دخولك!"
+        android:textColor="#4FA8FF"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/ibm_arab_plex"
+        android:paddingRight="5dp"
+        android:paddingBottom="20dp"
+        android:text="التالي"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="240dp"
+            android:layout_height="267dp"
+            android:layout_marginEnd="232dp"
+            android:layout_marginBottom="480dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/cloud2" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="405dp"
+            android:layout_height="8dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="4dp"
+            android:progress="70"
+            android:progressDrawable="@drawable/progress_bar_color"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

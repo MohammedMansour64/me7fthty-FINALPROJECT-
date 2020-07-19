@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aaa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pleasework" />
+        <activity android:name=".More_Details" />
+        <activity android:name=".CardsPage" />
+        <activity android:name=".SectionsPage" />
+        <activity android:name=".create_wallet" />
+        <activity android:name=".my_wallets" />
+        <activity android:name=".SettingsPage" />
+        <activity android:name=".ContactPage" />
+        <activity android:name=".CalendarPage" />
+        <activity android:name=".AccountPage" />
+        <activity
+            android:name=".MainPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".sign_in" />
+        <activity android:name=".sign_up" />
+        <activity android:name=".Sign" />
+        <activity android:name=".guide3" />
+        <activity android:name=".guide2" />
+        <activity android:name=".guide1" />
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
